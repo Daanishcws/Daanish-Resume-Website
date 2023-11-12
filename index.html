@@ -1,0 +1,65 @@
+<!-- INDEX PAGE FOR BISMA"S WEBSITE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css" />
+	 <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Home Page</title>
+	<style>
+  body {
+    opacity: 1;
+    transition-duration: 0.7s;
+    transition-property: opacity;
+  }
+
+  body.fade {
+    opacity: 0;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/daanishali/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Daanishcws" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="images/Daanish-logo.jpg" alt="Your Image Description" id="welcome-image">
+        <section id="welcome-section">
+            <h1>Hi! My name is Daanish Ali!</h1>
+            <h2>Welcome to my website!</h2>
+			<h2>Check out my resume and explore my GitHub for projects.</h2>
+			<h2>Feel free to connect on LinkedIn or email me with any questions!</h2>
+
+        </section>
+        <section id="contact">
+            <a href="mailto:Daanishali2002@gmail.com" class="contact-main">Contact Me</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Daanish Ali. All rights reserved.</p>
+    </footer>
+	
+	<!-- Website fade in section-->
+	<script>
+    document.body.className = 'fade';
+	document.body.classList.add('fade');
+	document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.className = '';
+      }, 230);
+    });
+	document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 230);
+    });
+  </script>
+</body>
+</html>

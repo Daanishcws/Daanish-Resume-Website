@@ -1,0 +1,144 @@
+<!-- RESUME PAGE FOR DAANISH'S WEBSITE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add your CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Resume</title>
+	<style>
+  body {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: opacity;
+  }
+
+  body.fade {
+    opacity: 0;
+  }
+  </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Title and Download Resume Section -->
+        <section id="titleheader">
+            <h1>Welcome to my Resume!</h1>
+        </section>
+        <section id="download-resume">
+            <a href="images/Resume - Daanish Ali.pdf" download class="download-button">Download Resume</a>
+        </section>
+
+        <!-- Summary Section -->
+        <section id="summary">
+            <h2>SUMMARY</h2>
+            <p>Computer science student. Experience with several different operating systems. Seeking a collaborative team role with continued skill development opportunities.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>Benedictine University, Lisle, IL &bull; Expected: May 2025</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Java</li>
+                <li>Collaboration and Teamwork</li>
+                <li>Eclipse</li>
+                <li>Verbal Communication</li>
+                <li>Windows</li>
+                <li>Problem Solving</li>
+                <li>macOS</li>
+                <li>iOS</li>
+                <li>Some experience with HTML</li>
+                <li>Mathematics</li>
+                <li>ChatGPT</li>
+            </ul>
+        </section>
+
+        <!-- Volunteer Experience Section -->
+        <section id="volunteer-experience">
+            <h2>VOLUNTEER EXPERIENCE</h2>
+            <ul>
+                <li>
+                    <h3>Front Desk Volunteer</h3>
+                    <p>Good Samaritan Hospital, Downers Grove, IL &bull; October 2016 – July 2018</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Leadership Experience Section -->
+        <section id="leadership-experience">
+            <h2>LEADERSHIP EXPERIENCE</h2>
+            <ul>
+                <li>
+                    <h3>Boy Scouts - October 2020</h3>
+                    <ul>
+                        <li>Achieved the prestigious rank of Eagle Scout, demonstrating commitment, perseverance, and leadership skills.</li>
+                        <li>Led a successful project in collaboration with a local mosque, overseeing the construction of two benches as a community service initiative.</li>
+                        <li>Developed invaluable leadership qualities through various scouting activities, fostering teamwork and effective communication.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Class Experience Section -->
+        <section id="class-experience">
+            <h2>CLASS EXPERIENCE</h2>
+            <ul>
+                <li>Object Oriented Design and Programming (Fall 2023)</li>
+                <li>Data Structures and Algorithms II (Fall 2023)</li>
+                <li>Computer Architecture (Fall 2023)</li>
+                <li>Data Structures and Algorithms I</li>
+                <li>Computer Programming – Java</li>
+                <li>Discrete Mathematics</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Daanish Ali</h2>
+            <p>If you have any inquiries, please feel free to contact Daanish Ali:</p>
+            <a href="mailto:daanishali2002@gmail.com" class="contact-button">Contact Daanish Ali</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Daanish Ali. All rights reserved.</p>
+    </footer>
+	
+	
+	<!-- Website fade in section-->
+	<script>
+    document.body.className = 'fade';
+	document.body.classList.add('fade');
+	document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.className = '';
+      }, 230);
+    });
+	document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.classList.remove('fade');
+      }, 230);
+    });
+  </script>
+</body>
+</html>
