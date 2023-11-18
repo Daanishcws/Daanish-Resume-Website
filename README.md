@@ -8,7 +8,6 @@ Welcome to my resume website! This website showcases my professional experience,
 - [Usage](#usage)
 - [Website Structure](#website-structure)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Introduction
 
